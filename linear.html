@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Abacus - Real Numbers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-4">
+            <a href="index.html" class="navbar-brand w-25 ps-0">
+                <img class="img-fluid" src="img/abacus.png" alt="">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-items-center nav" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold mx-auto py-0">
+                    <a href="index.html" class="btn btn-nav nav-item mx-2 my-3 py-3"><i class="fas fa-home"></i></a>
+                    <div class="nav-item dropdown mx-2 my-3">
+                        <button class="btn btn-nav nav-item dropdown-toggle py-3 active" data-toggle="dropdown"><i class="fas fa-book-open"></i></button>
+                        <div class="dropdown-menu rounded-sm m-0">
+                            <a href="realnum.html" class="dropdown-item">Real Numbers</a>
+                            <a href="expressions.html" class="dropdown-item">Expressions</a>
+                            <a href="balancing.html" class="dropdown-item">Balancing Expressions</a>
+                            <a href="exponents.html" class="dropdown-item">Exponents</a>
+                            <a href="pemdas.html" class="dropdown-item">PEMDAS</a>
+                            <a href="linear.html" class="dropdown-item">Linear Equations</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown mx-2 my-3">
+                        <button class="btn btn-nav nav-item dropdown-toggle py-3" data-toggle="dropdown"><i class="fas fa-gamepad"></i></button>
+                        <div class="dropdown-menu rounded-sm m-0">
+                            <a href="activity.html" class="dropdown-item">Activities</a>
+                            <a href="worksheets.html" class="dropdown-item">Worksheets</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown mx-2 my-3">
+                        <button class="btn btn-nav nav-item dropdown-toggle py-3" data-toggle="dropdown"><i class="fas fa-bars"></i></button>
+                        <div class="dropdown-menu rounded-sm m-0">
+                            <a href="about.html" class="dropdown-item">About Abacus</a>
+                            <a href="contact.html" class="dropdown-item">Contact Us</a>
+                        </div>
+                    </div>
+                    <a href="signin.html" class="btn btn-primary nav-item border-0 px-3 my-4 h-25">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+            <h3 class="display-3 font-weight-bold text-white">Lesson on Linear Equations</h3>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="index.html">Home</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0">Lessons</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Detail Start -->
+    <div class="container py-5">
+        <div class="row pt-5">
+            <div class="col-lg-8">
+                <div class="d-flex flex-column text-left mb-3">
+                    <p class="section-title pr-5"><span class="pr-2"></span></p>
+                    <h1 class="mb-3" id="1"><i class="fas fa-check"></i> Linear Equations</h1>
+                </div>
+                <div class="mb-5">
+                    <p><div class = "text-primary"><b>Linear Equation</b></div> – An equation when graphed out, forms a straight line. Linear Equations don’t have exponents, square, cube roots or anything of the like.</p>
+
+                    <h3 class="mb-4" id="2"><i class="fas fa-search"></i> Common Forms</h3>
+                    <p>Slope-Intercept Form | <span class = "text-primary"><b>y  = mx + b</b></span></p>
+                    <p>As the name suggests, this form makes use of the slope of the line and its y-intercept.</p>
+                    <ul> 
+                        <li>m - slope</li>
+                        <li>b - intercept</li>
+                    </ul>
+                    
+                    <p>Point-Slope Form | <span class = "text-primary"><b>y – y<sub>1</sub> = m(x – x<sub>1</sub>)</b></span></p>
+                    <p>This form uses 2 points on the line and it's slope for it's equation.</p>
+                    <ul> 
+                        <li>x,y - coordinates of a point</li>
+                        <li>x<sub>1</sub>,y<sub>1</sub> - coordinates of another point</li>
+                        <li>m - slope</li>
+                    </ul>
+
+                    <p>General Form | <span class = "text-primary"><b>Ax + By + C = 0</b></span></p>
+                    <ul> 
+                        <li>A and B cannot be 0 at the same time</li>
+                        <li>x and y are the x and y-intercepts respectively</li>
+                    </ul>
+
+                    <h3 class="mb-4" id="3"><i class="fas fa-search"></i> Solving Linear Equations</h3>
+                    <p>Similar to our previous lesson on balancing expressions, to solve a linear equation, you must first isolate the unknown variable then simplify everything else on the other side. Remember to always follow the Order of Operations when simplifying.</p>
+                    <p>To solve for the value of an unknown variable in a linear equation:</p>
+                    <ul>
+                        <li>Isolate the variable</li>
+                        <li>Simplify</li>
+                    </ul>
+
+                    <h4 class="mb-4" id="4"><i class="fas fa-book"></i> Examples</h4>
+                    <p>Find the value of y in the following equation: 6(y + 1) = 12</p>
+                    <p>First, let's divide both sides by 6 to remove the 6 on the left side.<br>y + 1 = 2</p>
+                    <p>Now we subtract 1 from both sides to remove the +1 on the left side.<br>y = 2 – 1<br>y  = 1</p>
+
+    
+                    <h3 class="mb-4" id="5"><i class="fas fa-search"></i> Finding Intercepts and Slopes</h3>
+                    <p><div class = "text-primary"><b>Intercept</b></div> - The point wherein the drawn lines intersects the y or x axis on a cartesian plane.</p>
+                    <p><div class = "text-primary"><b>Slope</b></div> - Determines the steepness of the line or how slant it is.</p>
+                    
+                    <p>To be able to graph linear equations, you must be able to identify at which point the line comes in contact with the x or y axis(intercept) and how steep it is(slope).</p>
+
+                    <p>The <span class = "text-primary"><b>Slope-Intercept Form</b></span> is the most common and simplest form for writing linear equations in.</p>
+
+                    <p>y = mx + b</p>
+                    <ul>
+                        <li>m is the slope</li>
+                        <li>b is the intercept</li>
+                    </ul>
+
+                    <p> By simply following the basic structure of the equation, you can easily pick out the slope and y-intercept.</p>
+                    <p>If the slope is positive, the line goes upwards going left to right. <br>If the slope is negative, the line goes downwards going left to right. <br>The y-intercept can be negative as well. If it is, it just means that the point where it makes contact with the y-axis is below the origin point (0,0)</p>
+
+                    <h4 class="mb-4" id="6"><i class="fas fa-book"></i> Examples</h4>
+                    <ul>
+                        <li>In the equation y = 6 + 10, the slope is 6 and the y-intercept is 10.</li>
+                        <li>In the equation y = -9 + 13, the slope is -9 and the y-intercept is 13.</li>
+                        <li>In the equation y = -6 - 21, the slope is -6 and the y-intercept is -21.</li>
+                    </ul>
+
+                    <h3 class="mb-4" id="7"><i class="fas fa-check-circle"></i> Test Yourself!</h3>
+                    <p>Identify the slopes and y-intercepts of the following linear equations:</p>
+                    <ul>
+                        <li>-y = -5x + 16</li>
+                        <li>y = -7 + 2x</li>
+                        <li>y = 4x -12</li>
+                    </ul>
+                    <p>Identify the value of x for the following linear equations:</p>
+                    <ul> 
+                        <li>48 ÷ 4 + 2x = 86</li>
+                        <li>30 – 18 + 12x = 128</li>
+                        <li>21 ÷ (6 ÷ 2) = x + 3</li>
+                    </ul>
+
+                    <p>Answers (Hover to Show)</p>
+                    <div class = "answers">
+                        <ul> 
+                            <li>m = 5 | b = -16</li>
+                            <li>m = 2 | b = -7</li>
+                            <li>m = 4 | b = -12</li>
+                        </ul>
+                        <ul> 
+                            <li>x = 37</li>
+                            <li>x = 9</li>
+                            <li>x = 4</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="mb-4" id="8"><i class="fas fa-paperclip"></i> Recap</h3>
+                    <p>Linear equations are equations that when plotted on a grraph, draw a straight line. Its common forms make the use of slopes, points and intercepts on the straight line to come up with an equation to graph out that line.</p>
+
+                    <h3 class="mb-4" id="9"><i class="fas fa-pencil-alt"></i> Practice Further</h3>
+                    <p class="mb-5">
+                        Practice your linear equation solving skills through these online activities: 
+                        <br>
+                        <a href="activity.html#container-graphs" class="btn btn-sm btn-primary border-0">Graphs of the Galaxy</a>
+                        <a href="activity.html#container-linear" class="btn btn-sm btn-primary border-0">Linear Equations</a>
+                        <br>
+                        <br>
+                        Alternatively, you could try printing and answering these worksheets: 
+                        <a href="worksheets.html#linear" class="btn btn-sm btn-primary border-0">Linear Equation Worksheets</a>
+                    </p>
+
+                    <br>
+
+                    <a class="btn-primary btn prevl" href="pemdas.html">Previous Lesson</a>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <!-- Category List -->
+                <div class="mb-5">
+                    <h2 class="mb-4">Page Navigation</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#1">Linear Equations</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#2">Common Forms</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#3">Solving Linear Equations</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#4">Examples</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#5">Finding Intercepts and Slopes</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#6">Examples</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#7">Test Yourself!</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#8">Recap</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="#9">Practice Further</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <h2 class="mb-4">Lessons</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="realnum.html">Real Numbers</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="expressions.html">Expressions</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="balancing.html">Balancing Expression</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="exponents.html">Exponents</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="pemdas.html">PEMDAS</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a href="linear.html">Linear Equations</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Detail End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
+                    <img src="img/abacuswhite.png" style="width: 70%; height: 70%;">
+                </a>
+                <p>Abacus aims to provide math education to kids at an early age. Here at Abacus, we believe that it's never too early to start being a Math genius!</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Get In Touch</h3>
+                <div class="d-flex">
+                    <h4 class="fa fa-map-marker-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Address</h5>
+                        <p>123 Street, New York, USA</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-envelope text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Email</h5>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-phone-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Phone</h5>
+                        <p>+012 345 67890</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Quick Links</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Sign In</a>
+
+                    <a href="#" class="dropdown-toggle text-white mb-2" data-toggle="dropdown"><i class="fa fa-angle-right mr-2"></i>Activities</a>
+                    <div class="dropdown-menu rounded-sm m-0">
+                        <a href="realnum.html" class="dropdown-item">Real Numbers</a>
+                        <a href="exponents.html" class="dropdown-item">Expressions</a>
+                        <a href="balancing.html" class="dropdown-item">Balancing Expressions</a>
+                        <a href="exponents.html" class="dropdown-item">Exponents</a>
+                        <a href="pemdas.html" class="dropdown-item">PEMDAS</a>
+                        <a href="linear.html" class="dropdown-item">Linear Equations</a>
+                    </div>
+
+
+                    <a href="#" class="dropdown-toggle text-white mb-2" data-toggle="dropdown"><i class="fa fa-angle-right mr-2"></i>Lessons</a>
+                    <div class="dropdown-menu rounded-sm m-0">
+                        <a href="realnum.html" class="dropdown-item">Real Numbers</a>
+                        <a href="expressions.html" class="dropdown-item">Expressions</a>
+                        <a href="balancing.html" class="dropdown-item">Balancing Expressions</a>
+                        <a href="exponents.html" class="dropdown-item">Exponents</a>
+                        <a href="pemdas.html" class="dropdown-item">PEMDAS</a>
+                        <a href="linear.html" class="dropdown-item">Linear Equations</a>
+                    </div>
+
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Login</h3>
+                <form action="">
+                    <div class="form-group">
+                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control border-0 py-4" placeholder="Your Password"
+                            required="required" />
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-block border-1 py-3" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">Abacus</a>. All Rights Reserved. 
+                
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed by <a class="text-primary font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top" style="display: none;"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
