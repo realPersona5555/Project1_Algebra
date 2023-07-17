@@ -56,6 +56,16 @@
     font-size: 200%;
 }
 
+.team-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-social i {
+    font-size: 130%;
+}
+
 [id^="mathgames-div"] {
     max-width: 1102px;
     height: 766px;
