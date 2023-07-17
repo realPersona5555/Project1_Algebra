@@ -11239,3 +11239,20 @@ a.text-dark:focus {
 .prevl {
     float: left;
 }
+
+.navh1 {
+    font-size: 115%;
+}
+
+.navh2 {
+    font-size: 95%;
+}
+
+.navlast {
+    padding-bottom: 1%;
+}
+
+#sidebar {
+    position: sticky;
+    top: 5%;
+}
