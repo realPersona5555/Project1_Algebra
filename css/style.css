@@ -52,16 +52,8 @@
     transform: scale(1.05);
 }
 
-.btn-signin {
-    color: var(--secondary) !important;
-    border: 1px solid var(--secondary) !important;
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
-}
-
-.btn-signin:hover {
-    background-color: var(--secondary);
-    color: #fff !important;
+.about-icon {
+    font-size: 200%;
 }
 
 [id^="mathgames-div"] {
