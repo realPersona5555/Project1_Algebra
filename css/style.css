@@ -52,10 +52,6 @@
     transform: scale(1.05);
 }
 
-u {
-    color: #f45050;
-}
-
 .about-icon {
     font-size: 200%;
 }
@@ -11263,7 +11259,7 @@ a.text-dark:focus {
 #sidebar {
     position: sticky;
     top: 5%;
-    overflow-y: auto;
+    overflow-y: hidden;
     max-height: calc(100vh - 4rem);
     background-color: #fde0e0;
     padding: 5%;
