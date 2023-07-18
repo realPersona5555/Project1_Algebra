@@ -52,6 +52,45 @@
     transform: scale(1.05);
 }
 
+[class^="chat"] {
+    display: flex;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+[class^="chat"] > p, 
+[class^="chat"] > div {
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    margin: 0;
+    width: 80%;
+}
+
+[class^="chat"] img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+    width: 10%;
+}
+
+.chat-left {
+    justify-content: start;
+}
+
+.chat-left > p,
+.chat-left > div {
+    background-color: rgba(249, 217, 73, 0.25);
+}
+
+.chat-right p,
+.chat-right > div {
+    background-color: rgba(244, 80, 80, 0.25);
+}
+
+.chat-right {
+    justify-content: end;
+}
+
 .about-icon {
     font-size: 200%;
 }
@@ -11259,6 +11298,7 @@ a.text-dark:focus {
 #sidebar {
     position: sticky;
     top: 5%;
+    overflow-x: hidden;
     overflow-y: auto;
     max-height: calc(100vh - 4rem);
     background-color: #fde0e0;
