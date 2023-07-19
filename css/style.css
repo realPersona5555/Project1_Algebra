@@ -11304,3 +11304,12 @@ a.text-dark:focus {
     padding: 5%;
     border-radius: 5%;
 }
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
