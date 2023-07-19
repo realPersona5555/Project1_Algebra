@@ -11047,7 +11047,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: var(--primary) !important
+    color: #cc9237 !important;
 }
 
 a.text-primary:hover,
