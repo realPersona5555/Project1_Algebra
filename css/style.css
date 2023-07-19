@@ -11298,7 +11298,7 @@ a.text-dark:focus {
 #sidebar {
     position: sticky;
     top: 5%;
-    overflow: hidden;
+    overflow: auto;
     max-height: calc(100vh - 4rem);
     background-color: #fde0e0;
     padding: 5%;
