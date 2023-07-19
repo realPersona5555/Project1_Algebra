@@ -17,6 +17,23 @@
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
     });
+
+    // Dropdown on mouse hover (footer ver.)
+    $(document).ready(function () {
+        function toggleFooterMethod() {
+            if ($(window).width() > 992) {
+                $('.footer-dropdown').on('mouseover', function () {
+                    $('.dropdown-toggle', this).trigger('click');
+                }).on('mouseout', function () {
+                    $('.dropdown-toggle', this).trigger('click').blur();
+                });
+            } else {
+                $('.footer-dropdown').off('mouseover').off('mouseout');
+            }
+        }
+        toggleFooterMethod();
+        $(window).resize(toggleFooterMethod);
+    });
     
     
     // Back to top button
