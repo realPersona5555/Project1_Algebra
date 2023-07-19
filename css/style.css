@@ -99,10 +99,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: 0.15s ease-in-out !important;
+}
+
+.team-social a:hover:nth-child(1) {
+    background-color: #f45050;
+    border-color: #f45050;
+    color: #fff;
+}
+
+.team-social a:hover:nth-child(2) {
+    background-color: #1877f2;
+    border-color: #1877f2;
+    color: #fff;
+}
+
+.team-social a:hover:nth-child(3) {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #fff;
 }
 
 .team-social i {
-    font-size: 130%;
+    font-size: 150%;
+}
+
+.team-social .btn {
+    border-width: 2px;
 }
 
 [id^="mathgames-div"] {
@@ -349,7 +374,7 @@
 
 .team .team-social {
     top: 0;
-    background: #f9d949E9;
+    background: #f9d949EA;
     opacity: 0;
     z-index: 1;
     transition: .5s
