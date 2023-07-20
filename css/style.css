@@ -11074,7 +11074,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: var(--primary) !important
+    color: #ECB206 !important
 }
 
 a.text-primary:hover,
