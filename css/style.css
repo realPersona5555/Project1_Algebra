@@ -224,6 +224,18 @@
     text-decoration: underline !important;
 }
 
+.close:hover h2 {
+    color: #f45050 !important;
+}
+
+.figcaption {
+    text-align: center;
+}
+
+body.modal-open .container-fluid {
+    filter: blur(2px);
+}
+
 /* Custom CSS End */
 
 :root {
@@ -6514,7 +6526,7 @@ a.badge-dark.focus {
 
 .close:not(:disabled):not(.disabled):hover,
 .close:not(:disabled):not(.disabled):focus {
-    opacity: .75
+    opacity: 1
 }
 
 button.close {
@@ -6693,7 +6705,7 @@ a.close.disabled {
 }
 
 .modal-backdrop.show {
-    opacity: .5
+    opacity: .65
 }
 
 .modal-header {

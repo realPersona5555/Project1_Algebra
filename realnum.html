@@ -109,7 +109,7 @@
                 </div>
                 <div class="mb-5">
                     <div class="animate__animated animate__fadeInLeft wow" data-wow-delay="0.1s">
-                        <p class="section-title w-100"><span class="pr-2"></span></p>
+                    <p class="section-title w-100"><span class="pr-2"></span></p>
                     <h1 class="mb-3" id = "1"><i class="fas fa-check"></i> Real Numbers</h1>
                     <p><b><span class = "text-primary">Real Numbers</span></b> – Any number that can be plotted onto the real number line. It can either be rational or irrational. </p>
                     <p><b><span class = "text-primary">Real Number Line</span></b> – A line that contains all possible real numbers. The values of the numbers as you go right increases and the values of the numbers as you go left decrease until you eventually reach negative numbers. </p>
@@ -117,7 +117,12 @@
 
                     <div class="animate__animated animate__fadeInLeft wow" data-wow-delay="0.1s">
                         <h2 class="mb-4" id = "2"><i class="fas fa-search"></i> Classification of Real Numbers</h2>
-                        <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/realnum.png" alt="Image">
+
+                        <a href="" type="button" data-toggle="modal" data-target="#realnums-modal">
+                            <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/realnum.png" alt="Image"
+                            data-toggle="tooltip" data-placement="bottom" title="Click me to zoom in!">
+                        </a>
+
                         <p><b><span class = "text-primary">Irrational Numbers</span></b> – Numbers that cannot be expressed as a fraction or quotient of 2 integers. Any non-rational number is automatically an irrational number.<br>- Pi and most square roots and cube roots are irrational. √2 is proved to be irrational by Hippasus, one of Pythagorean's students.</p>
 
                         <p><b><span class = "text-primary">Rational Numbers</span></b> – Fractions containing integers wherein the denominator is not 0. We can say that all natural numbers, whole numbers, and integers are rational numbers with their denominator being 1. Since fractions can be written as decimals, decimals weather terminating or repeating are also considered rational numbers.</p>
@@ -305,6 +310,26 @@
     </div>
     <!-- Detail End -->
 
+    <!-- Modals Start -->
+    <div class="modal fade" id="realnums-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded">
+                <div class="modal-header pb-1 border-0">
+                    <h3>Real Numbers</h3>
+                    <button type="button" class="close text-secondary" data-dismiss="modal">
+                        <h2>&times;</h2>
+                    </button>
+                </div>
+                <figure class="figure px-3">
+                    <img class="figure-img w-100" src="img/realnum.png" alt="">
+                    <figcaption class="figcaption text-secondary">
+                        <p>A diagram showing the classification of real numbers.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- Modals End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">

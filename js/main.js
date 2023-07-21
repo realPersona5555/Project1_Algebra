@@ -1,6 +1,16 @@
 (function ($) {
     "use strict";
     
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    $(document).keydown(function(event) { 
+        if (event.keyCode == 27) { 
+          $('.modal').modal('hide');
+        }
+      });
+
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
