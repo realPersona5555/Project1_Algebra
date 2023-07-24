@@ -236,6 +236,12 @@ body.modal-open .container-fluid {
     filter: blur(2px);
 }
 
+@media screen and (min-width: 992px) {
+    .modal {
+        transform: scale(1.25);
+    }
+}
+
 /* Custom CSS End */
 
 :root {
