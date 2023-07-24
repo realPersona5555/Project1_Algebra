@@ -242,6 +242,11 @@ body.modal-open .container-fluid {
     }
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
 /* Custom CSS End */
 
 :root {
