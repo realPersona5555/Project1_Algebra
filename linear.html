@@ -121,7 +121,10 @@
                             <li>m - slope</li>
                             <li>b - intercept</li>
                         </ul>
-                        <img class="img-fluid rounded w-50 mr-4 mb-3" src="img/slope-intercept.png" alt="Image">
+                        <a href="" type="button" data-toggle="modal" data-target="#slope-intercept-modal">
+                            <img class="img-fluid rounded w-50 mr-4 mb-3" src="img/slope-intercept.png" alt="Image"
+                            data-toggle="tooltip" data-placement="bottom" title="Click me to zoom in!">
+                        </a>
                     </div>
                     <br>
                     <br>
@@ -135,7 +138,10 @@
                             <li>x<sub>1</sub>,y<sub>1</sub> - coordinates of another point</li>
                             <li>m - slope</li>
                         </ul>
-                        <img class="img-fluid rounded w-50 mr-4 mb-3" src="img/point-slope.jpg" alt="Image">
+                        <a href="" type="button" data-toggle="modal" data-target="#point-slope-modal">
+                            <img class="img-fluid rounded w-50 mr-4 mb-3" src="img/point-slope.jpg" alt="Image"
+                            data-toggle="tooltip" data-placement="bottom" title="Click me to zoom in!">
+                        </a>
                     </div>
                     <br>
                     <br>
@@ -376,6 +382,45 @@
         </div>
     </div>
     <!-- Detail End -->
+
+    <!-- Modals Start -->
+    <div class="modal fade" id="slope-intercept-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded">
+                <div class="modal-header pb-1 border-0">
+                    <h3>Real Numbers</h3>
+                    <button type="button" class="close text-secondary" data-dismiss="modal">
+                        <h2>&times;</h2>
+                    </button>
+                </div>
+                <figure class="figure px-3">
+                    <img class="figure-img w-100" src="img/slope-intercept.png" alt="">
+                    <figcaption class="figcaption text-secondary">
+                        <p>A visual representation of the slope-intercept form.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="point-slope-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded">
+                <div class="modal-header pb-1 border-0">
+                    <h3>Real Numbers</h3>
+                    <button type="button" class="close text-secondary" data-dismiss="modal">
+                        <h2>&times;</h2>
+                    </button>
+                </div>
+                <figure class="figure px-3">
+                    <img class="figure-img w-100" src="img/point-slope.jpg" alt="">
+                    <figcaption class="figcaption text-secondary">
+                        <p>A diagram showing how to get the point-slope form.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- Modals End -->
 
 
     <!-- Footer Start -->

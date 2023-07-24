@@ -123,7 +123,11 @@
                     </div>
 
                     <div class="animate__animated animate__fadeInLeft wow" data-wow-delay="0.1s">
-                        <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/expressions.png" alt="Image">
+
+                        <a href="" type="button" data-toggle="modal" data-target="#expressions-modal">
+                            <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/expressions.png" alt="Image"
+                            data-toggle="tooltip" data-placement="bottom" title="Click me to zoom in!">
+                        </a>
 
                         <p><b><span class = "text-primary">Variable</span></b> – A letter that represents a number wherein it’s value may change. </p>
 
@@ -345,6 +349,26 @@
     </div>
     <!-- Detail End -->
 
+    <!-- Modals Start -->
+    <div class="modal fade" id="expressions-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded">
+                <div class="modal-header pb-1 border-0">
+                    <h3>Inequality Symbols</h3>
+                    <button type="button" class="close text-secondary" data-dismiss="modal">
+                        <h2>&times;</h2>
+                    </button>
+                </div>
+                <figure class="figure px-3">
+                    <img class="figure-img w-100" src="img/expressions.png" alt="">
+                    <figcaption class="figcaption text-secondary">
+                        <p>A table showing the different inequality symbols.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- Modals End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
