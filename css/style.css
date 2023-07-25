@@ -7,7 +7,7 @@
 	float: right;
 	height: 25%;
 	width: 25%;
-	margin: 1em;
+	margin: 1.5em;
 }
 
 .nav-item .dropdown-toggle:hover {
@@ -313,8 +313,8 @@ body.modal-open .container-fluid {
     --gray-dark: #343a40;
     --primary: #f9d949;
     --secondary: #2B2D42;
-    --success: #28a745;
-    --info: #00394f;
+    --success: #F45050;
+    --info: #3C486B;
     --warning: #ffc107;
     --danger: #dc3545;
     --light: #f0f0f0;
