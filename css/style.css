@@ -1,6 +1,15 @@
 /* Custom / Non-Template CSS Start */
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
+.portrait {
+	border-radius: 25%;
+	float: left;
+	height 25%;
+	width: 25%;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
 .nav-item .dropdown-toggle:hover {
     color: var(--primary);
 }
