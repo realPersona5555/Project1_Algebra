@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
 .portrait {
-	border: solid 1px var(--secondary);
-	border-radius: 25%;
-	float: right;
-	height: 25%;
-	width: 25%;
-	margin: 1.5em;
+    border: solid 1px var(--secondary);
+    border-radius: 25%;
+    float: right;
+    height: 25%;
+    width: 25%;
+    margin: 1.5em;
 }
 
 .nav-item .dropdown-toggle:hover {
@@ -11173,11 +11173,11 @@ a.text-secondary:focus {
 
 a.text-success:hover,
 a.text-success:focus {
-    color: #19692c !important
+    color: #F45050 !important
 }
 
 .text-info {
-    color: var(--primary) !important
+    color: #3C486B !important
 }
 
 a.text-info:hover,
