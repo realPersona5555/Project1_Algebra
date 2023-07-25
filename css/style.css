@@ -191,6 +191,7 @@
     overflow: hidden;
     overflow-x: hidden;
     transform: scale(80%) translateY(-10%);
+    margin-bottom: -10% !important;
 }
 
 #embed-order {
@@ -206,6 +207,7 @@
     overflow: hidden;
     overflow-x: hidden;
     transform: scale(80%) translateY(-10%);
+    margin-bottom: -5% !important;
 }
 
 #embed-linear {
@@ -221,6 +223,7 @@
     overflow: hidden;
     overflow-x: hidden;
     transform: scale(80%) translateY(-10%);
+    margin-bottom: -10% !important;
 }
 
 #embed-graphs {
