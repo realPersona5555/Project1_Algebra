@@ -11383,3 +11383,7 @@ a.text-dark:focus {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.announce-icons{
+    color: rgba(0, 0, 0,0.75);
+}
