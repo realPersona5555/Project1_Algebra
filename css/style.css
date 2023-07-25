@@ -247,6 +247,11 @@ body.modal-open .container-fluid {
     filter: invert(100%);
 }
 
+.carousel-indicators li {
+    width: 7% !important;
+    background-color: var(--secondary) !important;
+}
+
 /* Custom CSS End */
 
 :root {
