@@ -162,6 +162,15 @@
 
 .activity-link:hover h3 {color: white !important;}
 
+.activity-img {
+    max-width: 100%;
+    margin: 1rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
 [id^="mathgames-div"] {
     max-width: 1102px;
     height: 766px;
