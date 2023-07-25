@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
 .portrait {
+	border: solid 1px var(--secondary);
 	border-radius: 25%;
-	float: left;
+	float: right;
 	height: 25%;
 	width: 25%;
 	margin-right: 1em;
