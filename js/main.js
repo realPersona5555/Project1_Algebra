@@ -1,15 +1,24 @@
 (function ($) {
     "use strict";
     
+    // tooltips
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
+    //press Esc to exit modals
     $(document).keydown(function(event) { 
         if (event.keyCode == 27) { 
           $('.modal').modal('hide');
         }
-      });
+    });
+
+    $(document).ready(function(){
+        let hashVal = window.location.hash;
+        if (hashVal) {
+            $('#carousel').carousel(parseInt(hashVal.substring(1)));
+        }
+    });
 
     // Dropdown on mouse hover
     $(document).ready(function () {
